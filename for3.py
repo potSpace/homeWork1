@@ -5,8 +5,6 @@ rating_classes = [
     ]
 
 
-for score in range(len(rating_classes)):
-    score_all = rating_classes[score].get('scores')
-    print(score_all)
-    
-    for 
+for smth in range (rating_classes):
+    print(smth)
+    all_score = smth.get('score')
