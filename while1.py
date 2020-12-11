@@ -7,3 +7,5 @@ def hello_user():
              break
 if __name__ == "__main__":
     hello_user()
+
+print(ask_user)

@@ -1,6 +1,6 @@
 
 def expl(line_one, line_two):
-    if (type(line_one) and type(line_two) is not str):
+    if type(line_one) and type(line_two) is not str:
         return('0')
     elif line_one == line_two:
         return '1'
