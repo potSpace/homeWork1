@@ -62,7 +62,7 @@ def planet(update, context):
         print(constellation)
         update.message.reply_text(f'Планета {planet_name} находится в созвездии {constellation}')
     
-    elif planet_name in ['Earht' , 'Земля']:
+    elif planet_name in ['Earth' , 'Земля']:
         update.message.reply_text(f'{planet_name} не может входить в созвездие')
         
     elif planet_name in ['Pluto', 'Плутон']:
